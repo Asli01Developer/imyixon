@@ -180,7 +180,7 @@ class _HomePState extends State<HomeP> {
                   Padding(
                     padding: const EdgeInsets.only(top: 20, right: 100),
                     child: Text(
-                      "Series 3",
+                      "Series 5",
                       style:
                           TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
                     ),
