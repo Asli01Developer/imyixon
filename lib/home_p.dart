@@ -22,17 +22,19 @@ class _HomePState extends State<HomeP> {
               RotatedBox(
                 quarterTurns: 3,
                 child: Container(
-                  height: 100,
+                  height: 80,
                   width: 718,
                   decoration: BoxDecoration(color: Colors.black),
                   child: Row(
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(left: 40),
-                        child: Icon(
-                          CupertinoIcons.home,
-                          color: Colors.white,
-                          size: 35,
+                        child: RotatedBox(quarterTurns: 1,
+                          child: Icon(
+                            CupertinoIcons.home,
+                            color: Colors.white,
+                            size: 35,
+                          ),
                         ),
                       ),
                       Padding(
@@ -73,10 +75,12 @@ class _HomePState extends State<HomeP> {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 150),
-                        child: Icon(
-                          Icons.apple,
-                          color: Colors.white,
-                          size: 35,
+                        child: RotatedBox(quarterTurns: 1,
+                          child: Icon(
+                            Icons.apple,
+                            color: Colors.white,
+                            size: 35,
+                          ),
                         ),
                       )
                     ],
@@ -86,11 +90,11 @@ class _HomePState extends State<HomeP> {
               Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 200, top: 20),
+                    padding: const EdgeInsets.only(left: 230, top: 20),
                     child: Icon(
-                      Icons.search,
+                     CupertinoIcons.search,
                       color: Colors.black,
-                      size: 40,
+                      size: 35,
                     ),
                   ),
                   Padding(
@@ -115,7 +119,7 @@ class _HomePState extends State<HomeP> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                            "assets/result/pnghost_apple-watch-series-3-nike-apple-watch-series-2-nike 1.png",
+                            "assets/result/im_2.png",
                           ),
                         ),
                       ),
@@ -171,7 +175,7 @@ class _HomePState extends State<HomeP> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                            "assets/result/pnghost_apple-watch-series-3-nike-apple-watch-series-2-nike 1.png",
+                            "assets/result/im_1.png",
                           ),
                         ),
                       ),
