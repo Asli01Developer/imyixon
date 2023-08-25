@@ -206,7 +206,7 @@ class _HomePState extends State<HomeP> {
                   Padding(
                     padding: const EdgeInsets.only(top: 1, right: 60),
                     child: Text(
-                      "fitness game on point.",
+                      "fitness game on point .",
                       style:
                           TextStyle(fontWeight: FontWeight.w300, fontSize: 10),
                     ),
